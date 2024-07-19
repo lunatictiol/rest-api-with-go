@@ -1,0 +1,11 @@
+PUT  http://localhost:8080/event/2
+Content-Type: "application/json"
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAMjUxMi5jb20iLCJleHAiOjE3MjE0MTQzNTcsInVzZXJJZCI6NH0.cE4s6_xQ20_ub2dP5cU2p_KVvt08p_4y4V7vUqjZURs
+
+
+{
+    "name": "updated",
+    "description": "test event post",
+    "location": "test",
+    "dateTime": "2006-01-02T15:04:05Z"
+}
