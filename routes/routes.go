@@ -2,7 +2,7 @@ package routes
 
 import (
 	"github.com/gin-gonic/gin"
-	"lunatictiol.com/resApi/routes/middlewares"
+	"github.comlunatictiol/rest-api-with-go/routes/middlewares"
 )
 
 func ConfigRouting(server *gin.Engine) {

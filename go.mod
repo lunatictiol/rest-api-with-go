@@ -1,4 +1,4 @@
-module lunatictiol.com/resApi
+module github.comlunatictiol/rest-api-with-go
 
 go 1.22.4
 

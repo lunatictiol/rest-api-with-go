@@ -3,8 +3,8 @@ package model
 import (
 	"errors"
 
-	"lunatictiol.com/resApi/db"
-	"lunatictiol.com/resApi/utils"
+	"github.comlunatictiol/rest-api-with-go/db"
+	"github.comlunatictiol/rest-api-with-go/utils"
 )
 
 type User struct {

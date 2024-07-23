@@ -5,7 +5,7 @@ import (
 	"strconv"
 
 	"github.com/gin-gonic/gin"
-	"lunatictiol.com/resApi/model"
+	"github.comlunatictiol/rest-api-with-go/model"
 )
 
 func getHello(contex *gin.Context) {

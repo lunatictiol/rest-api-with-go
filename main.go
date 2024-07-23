@@ -2,8 +2,8 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	"lunatictiol.com/resApi/db"
-	"lunatictiol.com/resApi/routes"
+	"github.comlunatictiol/rest-api-with-go/db"
+	"github.comlunatictiol/rest-api-with-go/routes"
 )
 
 func main() {
@@ -11,4 +11,6 @@ func main() {
 	server := gin.Default()
 	routes.ConfigRouting(server)
 	server.Run(":8080")
+
+	
 }

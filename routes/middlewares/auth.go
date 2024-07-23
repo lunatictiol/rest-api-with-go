@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"lunatictiol.com/resApi/utils"
+	"github.comlunatictiol/rest-api-with-go/utils"
 )
 
 func Aunthenticate(contex *gin.Context) {

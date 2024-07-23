@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"lunatictiol.com/resApi/model"
-	"lunatictiol.com/resApi/utils"
+	"github.comlunatictiol/rest-api-with-go/model"
+	"github.comlunatictiol/rest-api-with-go/utils"
 )
 
 func signup(contex *gin.Context) {
