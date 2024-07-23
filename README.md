@@ -18,7 +18,7 @@ This Go REST API provides endpoints for managing events. Users can register, log
   * `/events/:id`: Delete an event (requires authentication and ownership)
 
 **Authentication**
-The API uses JWT authentication. Include the JWT token in the `Authorization` header with the prefix `Bearer` for protected endpoints.
+The API uses JWT authentication. Include the JWT token in the `Authorization` header with the prefix `Authorization` for protected endpoints.
 
 **Data Structure**
 * **User:**
